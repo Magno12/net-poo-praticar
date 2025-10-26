@@ -8,6 +8,6 @@ namespace net_poo_praticar.Models
     public interface IAutores
     {
         public string NomeAutor { get; set; }
-        public string NomeEditora { get; set; }
+        public string NomeEditoraProdutora { get; set; }
     }
 }

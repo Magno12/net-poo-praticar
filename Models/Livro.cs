@@ -5,15 +5,19 @@ using System.Threading.Tasks;
 
 namespace net_poo_praticar.Models
 {
-    public abstract class Livro : IAutores
+    public class Livro : IAutores
     {
-        public string NomeAutor { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string NomeEditora { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string NomeAutor { get; set; }
+        public string NomeEditoraProdutora { get; set; }
 
         protected string NomeLivro;
         protected int NumeroDePaginas;
         protected string Genero;
-
+        public virtual void ExibirLivros()
+        {
+            Console.WriteLine("\n");
+            Console.WriteLine($"Nome Autor {NomeAutor}");
+        }
 
     }
 }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace net_poo_praticar.Models
 {
-    public class FilmeEscolares
+    public class FilmeMarvelStudios : Filme
     {
         
     }

@@ -8,15 +8,14 @@ namespace net_poo_praticar.Models
     public class BibliotecasEspecializadas : Livro
     {
         public BibliotecasEspecializadas
-        (string nomeAutor, string nomeEditora, string nomeLivro, string genero, int numeroDePaginas)
+        (string nomeAutor, string nomeEditoraProdutora, string nomeLivro, string genero, int numeroDePaginas)
         {
             NomeAutor = nomeAutor;
-            NomeEditora = nomeEditora;
+            NomeEditoraProdutora = nomeEditoraProdutora;
             NomeLivro = nomeLivro;
             Genero = genero;
             NumeroDePaginas = numeroDePaginas;
         }
-
         public string NomeEspecializacao { get; set; }
     }
 }
