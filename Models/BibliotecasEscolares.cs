@@ -7,7 +7,6 @@ namespace net_poo_praticar.Models
 {
     public class BibliotecasEscolares : Livro
     {
-
         public BibliotecasEscolares
         (string nomeAutor, string nomeEditoraProdutora, string nomeLivro, string genero, int numeroDePaginas, string serieEscolar)
         {

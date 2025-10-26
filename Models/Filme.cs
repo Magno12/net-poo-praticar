@@ -9,7 +9,6 @@ namespace net_poo_praticar.Models
     {
         public string NomeAutor { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string NomeEditoraProdutora { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
         protected string NomeFilme;
         protected string TempoDuracao;
         protected string Genero;
